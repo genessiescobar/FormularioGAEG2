@@ -1,0 +1,22 @@
+fieldset
+{
+	margin-bottom: 10px;
+}
+
+legend
+{
+	border: solid 3px #FF3D33;
+
+}
+
+body
+{
+	background: url(8b655b6f46dafd422cbf8bacfde4b715.jpg);
+	background-size: 120%;
+	background-attachment: fixed; 
+}
+#mifoto
+{
+	border: solid 4px #cccccc;
+}
+
