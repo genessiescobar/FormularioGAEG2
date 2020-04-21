@@ -1,0 +1,51 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url(fondo2.jpg);
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;
+	font-family: arial;
+	font-weight: bold;
+}
+table{
+	width: 450px;
+	margin: auto;
+	background-color:rgb(152,254,254,0.6);
+	color: black;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 40px;
+	border-radius: 6px;
+
+}
+.conta{
+	width: 450px;
+	margin: auto;
+	background-color:rgb(152,254,254,0.6);
+	color: black;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 40px;
+	border-radius: 6px;
+}
+input, , select, option{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+
+#boton{
+		background: black;
+	color: white;
+	border-radius: 2px;
+	font-size: 16px;
+}

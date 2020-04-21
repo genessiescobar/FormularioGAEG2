@@ -3,10 +3,10 @@ include('clasedb.php');
 
 extract($_REQUEST);
 
-//echo $first_name."-".$$last_first_name."-"$dni;
+//echo $nombres."-".$apellidos."-"$cedula;
 $db=new clasedb();
 $con=$db->conectar();
-$sql="INSERT INTO datos_personales VALUE(NULL,'".$first_name."','".$last_first_name."',".$dni.")";
+$sql="INSERT INTO pelicula VALUE(NULL,'".$nombre."','".$director."','".$compañia."','".$estreno."','".$tipo."')";
 //echo $sql;
 $resultado=mysqli_query($con,$sql);
 

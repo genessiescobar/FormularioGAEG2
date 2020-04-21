@@ -6,6 +6,7 @@
 </head>
 <body>
 	<form action="recibir_formulario.php" method="post" name="formulario">
+		
 	<h1>Curriculum Vintae</h1>
 	<br>
 
@@ -21,21 +22,12 @@
 			</td></tr>
 			
 			<tr>
-		<td align="right">Second name:</td>
-			<td align="left">
-			<input type="text" name="second_name" id="second_name" required="required" placeholder="Enter you second name"  size="50">
-			</td></tr>
-			
 <td align="right">Last First name:</td>
 			<td align="left">
 			<input type="text" name="last_first_name" id="last_first_name" required="required" placeholder="Enter you last first name"  size="50">
 			</td></tr>
 			<tr>
-	<td align="right">Date of Birth:</td>
-	<td>
-		<input type="date" name="date_birth" id="date_birth" max="2020-02-18">
-	</td>
-</tr>
+	
 				<td align="right"><label>DNI</label></td>
 <td>
 	<select name="nationality" id="nationality" title="select your nationality">
@@ -46,112 +38,12 @@
 	</select>
 	<input type="number" name="dni" id="dni" title="Enter you DNI" required="required" placeholder="Ex:123456">
 	</td>
-	<tr>
-	<td align="right">Phone Number:</td>
-			<td align="left">
-			<input type="text" name="phone" id="phone" required="required" placeholder="04245214648"  size="50">
-			</td></tr>
-
-
-<td align="right">Email:</td>
-			<td align="left">
-			<input type="text" name="gmail" id="gmail" required="required" placeholder="genessiescobar@gmail"  size="50">
-			</td></tr>
-		<tr>
-			<td align="right"><label>Marisal Status:</label></td>
-			<td align="left">
-			<input type="radio" name="Status" value="Single">Single<br>
-			<input type="radio" name="Status" value="married">Married<br>
-		</td>
-		</tr>
-		<tr>
-					<td align="right">
-						<label>
-							Address
-						</label>
-					</td>
-					<td align="left">
-						<textarea placeholder="Enter your address" name="address" id="address" required="required"></textarea>
-						<br>
-						
-					</td>
-				</tr>
 		</table>
 	</ul>
 	</fieldset>
-</br>
-</br>
-	<fieldset>
-	<legend><b>ACADEMIC TRAINING</b></legend>
-	<ul>
-		<br>
-		<table>
-			<tr>
-			<td align="right">Primary:</td>
-			<td align="left">
-			<input type="text" name="first_name" id="first_name" required="required" placeholder="Enter you first name"  size="50">
-			</td></tr>
-			
-			<tr>
-		<td align="right">High school:</td>
-			<td align="left">
-			<input type="text" name="second_name" id="second_name" required="required" placeholder="Enter you second name"  size="50">
-			</td></tr>
-			
-<td align="right">University:</td>
-			<td align="left">
-			<input type="text" name="last_first_name" id="last_first_name" required="required" placeholder="Enter you last first name"  size="50">
-			</td></tr>
-			<tr>
-					<td align="right">
-						<label>
-							Courses
-						</label>
-					</td>
-					<td align="left">
-						<br>
-						<input type="text" name="courses" id="courses" placeholder="Enter the courses taken" title="Enter the courses taken" size="50">
-						<br>
-						
-						<input type="button" name="Agregar" style="background-color: cyan" id="Agregar" value="add">
-						<input type="button" name="Quitar" style="background-color: red" id="Quitar" value="delete">
-					</td>
-				</tr>
-		</table>
-	</ul>
-	</fieldset>
-</br>
-</br>
-<fieldset>
-	<legend><b>WORK EXPERIENCE</b></legend>
-	<ul>
-<tr>
-					<td align="right">
-						Enter the Jobs done
-					</td>
-					<td align="left">
-						<br>
-						<input type="text" name="jobs" id="jobs" placeholder="Enter the Jobs done" title="Enter the Jobs done" size="50">
-						<br>
-						
-						<br>
-						<input type="text" name="jobs" id="jobs" placeholder="Duration" title="Duration" size="50">
-						<br>
-						
-						<br>
-						<input type="text" name="jobs" id="jobs" placeholder="Enter the Jobs done" title="Enter the Jobs done" size="50">
-						<br>
-						
-						<br>
-						<input type="text" name="jobs" id="jobs" placeholder="Duration" title="Duration" size="50">
-						<br>
-						
-					</td>
-				</tr>
+
 				<tr><input type="submit" name="enviar" value="enviar"></tr>
-		</table>
-	</ul>
-	</fieldset>
+	
 </br>
 </br>
 </form>
